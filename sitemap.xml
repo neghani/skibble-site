@@ -4,13 +4,13 @@
         <loc>https://www.skibble.tech/</loc>
         <priority>0.1</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2022-07-05</lastmod>
+         <lastmod>2022-09-01</lastmod>
     </url>
     <url>
         <loc>https://www.skibble.tech/foundation.html</loc>
         <priority>0.1</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2022-07-05</lastmod>
+        <lastmod>2022-09-01</lastmod>
     </url>
     <url>
         <loc>https://www.skibble.tech/advanced.html</loc>
@@ -22,6 +22,12 @@
         <loc>https://www.skibble.tech/faq.html</loc>
         <priority>0.1</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2022-07-05</lastmod>
+        <lastmod>2022-09-01</lastmod>
+    </url>
+     <url>
+        <loc>https://www.skibble.tech/course_home.html</loc>
+        <priority>0.1</priority>
+        <changefreq>yearly</changefreq>
+        <lastmod>2022-09-01</lastmod>
     </url>
 </urlset>
