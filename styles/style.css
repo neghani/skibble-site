@@ -70,24 +70,27 @@
 .level-section {
   box-shadow: 0px 0rem 80px hsla(0, 0%, 70.6%, 0.2);
   padding: 20px 26px;
+  margin: 0 !important;
 }
-
+.card{
+  margin: 8px 20px;
+}
 .card-link {
   color: #333;
 }
 .section-ash {
   background-color: #fbfbfb;
 }
-.card .list, .skills-container p, .ash-color {
+.card .list,
+.skills-container p,
+.ash-color {
   color: #767d86;
 }
 
-.footer{
+.footer {
   background-color: #333;
   color: white;
 }
-
-
 
 #container {
   background-size: cover !important;
@@ -219,9 +222,7 @@ form .serverInfo p .name {
 .acceptBtn:hover {
   background: #86a0ff;
   color: #fff;
-
 }
-
 
 /*
 =============== 
@@ -229,14 +230,12 @@ Questions
 ===============
 */
 .title {
- 
   margin-bottom: 4rem;
 }
 .title h2 {
-
   text-align: center;
 }
-.section-center{
+.section-center {
   width: 60%;
   margin: 0px auto;
 }
@@ -310,16 +309,47 @@ Questions
   height: 100%;
 }
 
-.waitlist{
+.waitlist {
   background-color: #db3e4d;
   text-align: center;
   color: #f4f4f4;
   padding: 14px;
 }
-.waitlist a{
-  color: #fff;;
+.waitlist a {
+  color: #fff;
   padding: 8px 12px;
   font-weight: bold;
-  
 }
-  
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav{
+    display: none;
+  }
+  .waitlist {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+  }
+  header{
+    margin-top: 46px;
+  }
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
